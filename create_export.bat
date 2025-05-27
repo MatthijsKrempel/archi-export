@@ -1,0 +1,2 @@
+REM use -noexit when debugging Archi
+.\bin\Windows\Archi -application com.archimatetool.commandline.app -consoleLog -nosplash --modelrepository.loadModel . --html.createReport src\Krempel.Archi-Export.WebServer\wwwroot
