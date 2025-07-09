@@ -16,4 +16,4 @@ app.UseHttpsRedirection();
 app.MapHealthChecks("/health")
     .WithMetadata(new AllowAnonymousAttribute());
 
-app.Run();
+await app.RunAsync();
