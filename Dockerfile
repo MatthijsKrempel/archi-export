@@ -3,7 +3,7 @@ COPY ./model ./model
 RUN apt update && \
     apt install -y xvfb libswt-gtk-4-jni git unzip curl vim jq dbus-x11 && \
     mkdir ./dist && \
-    curl -o ./dist/Archi-Linux64-5.6.0.tgz https://www.archimatetool.com/downloads/archi/5.6/Archi-Linux64-5.6.0.tgz && \
+    curl -o ./dist/Archi-Linux64-5.6.0.tgz https://www.archimatetool.com/downloads/archi/5.6.0/Archi-Linux64-5.6.0.tgz && \
     curl -o ./dist/coArchi_0.9.4.archiplugin https://www.archimatetool.com/downloads/coarchi/coArchi_0.9.4.archiplugin && \
     tar -xf ./dist/Archi-Linux64-5.6.0.tgz -C / && \
     mkdir ~/.archi && mkdir ~/.archi/dropins && \
